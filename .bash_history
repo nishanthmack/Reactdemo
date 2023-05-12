@@ -92,3 +92,51 @@ docker images
 ls
 systemctl start jason
 systemctl start json
+ls
+vi Dockerfile
+mkdir app
+ls
+cd app
+ls
+cd ..
+pwd
+l
+ls
+git it
+git init
+git add
+git add .
+git commit
+git commit -m " first change"
+git remote add origin https://github.com/nishanthmack/Reactdemo.git
+git push origin master
+yum update
+yum upgrade
+yum install openjdk-11-jre
+yum install default-jdk -y
+yum install java
+java --version
+[200~sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+sudo yum upgrade
+# Add required dependencies for the jenkins package
+sudo yum install java-11-openjdk
+sudo yum install jenkins
+wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+yum upgrade
+yum install jenkins
+jenkins --version
+service jenkins status
+systemctl jenkins start
+systemctl start jenkins
+cat /var/lib/jenkins/secrets/initialAdminPassword
+git clone https://github.com/Arun-Ghub/my-app.git
+ls
+cd my-app/
+ls
+cat Jenkinsfile 
+ls
+mv Jenkinsfile /home/ec2-user
+cd
+logout
